@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-LABEL maintainer="konova@novaitg.com"
+LABEL maintainer="soetintaung@yomafleet.com"
 ENV REFRESHED_AT 2021-12-12
 RUN apt-get -yqq update; apt-get -yqq install nginx
 
