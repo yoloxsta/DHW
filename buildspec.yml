@@ -35,5 +35,7 @@ phases:
       - aws ecs describe-task-definition --task-definition nginx --query taskDefinition > taskdef.json
 
 artifacts:
-    files: imagedefinitions.json
-    files: taskdef.json
+  files:
+    - appspec.yml
+    - taskdef.json
+  name: DockerArtifacts
