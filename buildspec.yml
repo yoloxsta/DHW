@@ -30,6 +30,8 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       - printf '[{"name":"%s","imageUri":"%s"}]' $CONTAINER_NAME $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - aws ecs describe-task-definition --task-definition nginx --query taskDefinition > taskdef.json
 
 artifacts:
     files: imagedefinitions.json
+    files: taskdef.json
