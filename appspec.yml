@@ -16,5 +16,5 @@ Resources:
                   "subnet-0405c9f57275c8542",
                   "subnet-0eee2c4f6a9984946",
                 ]
-            SecurityGroups: ["sg-0649a8197cd5c0aa3 "]
+            SecurityGroups: ["sg-0649a8197cd5c0aa3"]
             AssignPublicIp: "DISABLED"
