@@ -13,8 +13,8 @@ Resources:
           AwsvpcConfiguration:
             Subnets:
                 [
-                  "subnet-08a167deac10adc56",
-                  "subnet-0137dd0b6137e107b",
+                  "subnet-0b365b3de0b0452d3",
+                  "subnet-0a2caaecfe4613410",
                 ]
-            SecurityGroups: ["sg-020eb18f60325aae5"]
+            SecurityGroups: ["sg-0bdafdeb68b407056"]
             AssignPublicIp: "DISABLED"
